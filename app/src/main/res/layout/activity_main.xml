@@ -16,11 +16,9 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:text="Activity"
         android:id="@+id/button1"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
-
-
+        android:layout_height="wrap_content"
+        android:text="Activity" />
 
 </android.support.constraint.ConstraintLayout>
