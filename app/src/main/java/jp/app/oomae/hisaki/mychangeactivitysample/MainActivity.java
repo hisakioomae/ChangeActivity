@@ -12,15 +12,15 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.viewholder_item);
 
-        findViewById(R.id.button1).setOnClickListener(changeActivity);
+        //findViewById(R.id.button1).setOnClickListener(changeActivity);
     }
 
-    View.OnClickListener changeActivity = new View.OnClickListener() {
+    /*View.OnClickListener changeActivity = new View.OnClickListener() {
         @Override
         public void onClick(View v) {
             Intent intent = new Intent(MainActivity.this, SubActivity.class);
             startActivity(intent);
         }
-    };
+    };*/
 
 }
