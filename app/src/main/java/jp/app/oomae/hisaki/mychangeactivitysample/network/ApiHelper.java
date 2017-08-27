@@ -1,7 +1,6 @@
 package jp.app.oomae.hisaki.mychangeactivitysample.network;
 
-import android.view.Menu;
-
+import jp.app.oomae.hisaki.mychangeactivitysample.model.Menu;
 import jp.app.oomae.hisaki.mychangeactivitysample.model.Question;
 import jp.app.oomae.hisaki.mychangeactivitysample.model.Recipe;
 import retrofit2.Call;
