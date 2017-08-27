@@ -10,7 +10,8 @@ import retrofit2.http.Query;
 
 public interface ApiHelper {
 
-    // TODO: APIのドメイン設定
+    String exciteURL = "http://hogehoge.com";// TODO: APIのドメイン設定
+    String phpURL = "http://hogehoge.com";// TODO: APIのドメイン設定
 
     @GET("question/")// TODO: APIのpathを設定
     Call<Question> question();
